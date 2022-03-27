@@ -113,11 +113,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\github\\LR5\\task20\\task_20.fsproj",
+      "projectUniqueName": "D:\\github\\LR5\\task_20\\task_20.fsproj",
       "projectName": "task_20",
-      "projectPath": "D:\\github\\LR5\\task20\\task_20.fsproj",
+      "projectPath": "D:\\github\\LR5\\task_20\\task_20.fsproj",
       "packagesPath": "C:\\Users\\scdco\\.nuget\\packages\\",
-      "outputPath": "D:\\github\\LR5\\task20\\obj\\",
+      "outputPath": "D:\\github\\LR5\\task_20\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\scdco\\AppData\\Roaming\\NuGet\\NuGet.Config",

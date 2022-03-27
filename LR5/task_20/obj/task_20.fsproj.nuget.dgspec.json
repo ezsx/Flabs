@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\github\\LR5\\task20\\task20.fsproj": {}
+    "D:\\github\\LR5\\task_20\\task_20.fsproj": {}
   },
   "projects": {
-    "D:\\github\\LR5\\task20\\task20.fsproj": {
+    "D:\\github\\LR5\\task_19\\task_19.fsproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\github\\LR5\\task20\\task20.fsproj",
-        "projectName": "task20",
-        "projectPath": "D:\\github\\LR5\\task20\\task20.fsproj",
+        "projectUniqueName": "D:\\github\\LR5\\task_19\\task_19.fsproj",
+        "projectName": "task_19",
+        "projectPath": "D:\\github\\LR5\\task_19\\task_19.fsproj",
         "packagesPath": "C:\\Users\\scdco\\.nuget\\packages\\",
-        "outputPath": "D:\\github\\LR5\\task20\\obj\\",
+        "outputPath": "D:\\github\\LR5\\task_19\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\scdco\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,11 +27,7 @@
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
-            "projectReferences": {
-              "D:\\github\\LR5\\task_19\\task_19.fsproj": {
-                "projectPath": "D:\\github\\LR5\\task_19\\task_19.fsproj"
-              }
-            }
+            "projectReferences": {}
           }
         }
       },
@@ -71,14 +67,14 @@
         }
       }
     },
-    "D:\\github\\LR5\\task_19\\task_19.fsproj": {
+    "D:\\github\\LR5\\task_20\\task_20.fsproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\github\\LR5\\task_19\\task_19.fsproj",
-        "projectName": "task_19",
-        "projectPath": "D:\\github\\LR5\\task_19\\task_19.fsproj",
+        "projectUniqueName": "D:\\github\\LR5\\task_20\\task_20.fsproj",
+        "projectName": "task_20",
+        "projectPath": "D:\\github\\LR5\\task_20\\task_20.fsproj",
         "packagesPath": "C:\\Users\\scdco\\.nuget\\packages\\",
-        "outputPath": "D:\\github\\LR5\\task_19\\obj\\",
+        "outputPath": "D:\\github\\LR5\\task_20\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\scdco\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -94,7 +90,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\github\\LR5\\task_19\\task_19.fsproj": {
+                "projectPath": "D:\\github\\LR5\\task_19\\task_19.fsproj"
+              }
+            }
           }
         }
       },
