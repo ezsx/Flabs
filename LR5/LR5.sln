@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "task_11", "task_11\task_11.fsproj", "{E20B605B-C973-4DD8-A0BD-AD7CAB8BA913}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E20B605B-C973-4DD8-A0BD-AD7CAB8BA913}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E20B605B-C973-4DD8-A0BD-AD7CAB8BA913}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E20B605B-C973-4DD8-A0BD-AD7CAB8BA913}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{E20B605B-C973-4DD8-A0BD-AD7CAB8BA913}.Debug|x64.Build.0 = Debug|Any CPU
+		{E20B605B-C973-4DD8-A0BD-AD7CAB8BA913}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E20B605B-C973-4DD8-A0BD-AD7CAB8BA913}.Debug|x86.Build.0 = Debug|Any CPU
+		{E20B605B-C973-4DD8-A0BD-AD7CAB8BA913}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E20B605B-C973-4DD8-A0BD-AD7CAB8BA913}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E20B605B-C973-4DD8-A0BD-AD7CAB8BA913}.Release|x64.ActiveCfg = Release|Any CPU
+		{E20B605B-C973-4DD8-A0BD-AD7CAB8BA913}.Release|x64.Build.0 = Release|Any CPU
+		{E20B605B-C973-4DD8-A0BD-AD7CAB8BA913}.Release|x86.ActiveCfg = Release|Any CPU
+		{E20B605B-C973-4DD8-A0BD-AD7CAB8BA913}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {812E2275-3F04-4128-ABCE-5AD0AB5CC4C5}
+	EndGlobalSection
+EndGlobal

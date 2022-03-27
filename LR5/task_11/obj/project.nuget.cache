@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "EHgZM3ywH2Bocskda14qks6kKeqO7mUaEuMjfhOu2nzdeRzOu7dfJ2H9bg1RSQzN6ZiQZJuWAhnf2K+il0fgdA==",
+  "success": true,
+  "projectFilePath": "D:\\github\\LR5\\task_11\\task_11.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\scdco\\.nuget\\packages\\fsharp.core\\5.0.0\\fsharp.core.5.0.0.nupkg.sha512",
+    "C:\\Users\\scdco\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.22\\microsoft.netcore.app.host.win-x64.3.1.22.nupkg.sha512"
+  ],
+  "logs": []
+}
