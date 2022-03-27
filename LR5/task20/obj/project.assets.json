@@ -113,9 +113,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\github\\LR5\\task20\\task20.fsproj",
-      "projectName": "task20",
-      "projectPath": "D:\\github\\LR5\\task20\\task20.fsproj",
+      "projectUniqueName": "D:\\github\\LR5\\task20\\task_20.fsproj",
+      "projectName": "task_20",
+      "projectPath": "D:\\github\\LR5\\task20\\task_20.fsproj",
       "packagesPath": "C:\\Users\\scdco\\.nuget\\packages\\",
       "outputPath": "D:\\github\\LR5\\task20\\obj\\",
       "projectStyle": "PackageReference",
