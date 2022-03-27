@@ -21,6 +21,14 @@ let divideF x func init =
             df x func newInit newDiv
     df x func init x
 
+let digitBypassWithPredicate number predicate =
+    let rec procInternal x mult =
+        if(x = 0) then mult
+        else
+            let newList = if predicate (x % 10) then mult*(x%10) else mult
+            let newX = x / 10
+            procInternal newX newList
+    procInternal number 1
 
 // LR5_17.1- Обход делителей числа с условием
 let div_F_pred x predicate func init =
@@ -30,6 +38,10 @@ let div_F_pred x predicate func init =
 let summ_del x =
     div_F_pred x (isPrime) (fun x y -> max x y) 1
 
+let mult_num x =
+    digitBypassWithPredicate x (fun x -> x%5<>0)
+    
+
 [<EntryPoint>]
 let main argv =
     printfn "Число: "
@@ -37,6 +49,9 @@ let main argv =
 
     //Найти максимальный простой делитель числа.
     let t181 = summ_del x
-    printfn "результат: %d" t181
+    printfn "максимальный простой делитель числа: %d" t181
+
+    let t182 = mult_num x
+    printfn "Найти произведение цифр числа, не делящихся на 5: %d" t182
 
     0
