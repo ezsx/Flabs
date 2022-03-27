@@ -7,9 +7,7 @@ let rec nod x y =
         let newY = if x <= y then y % x else y
         nod newX newY
 
-
-
-let primesFunc x func init =
+let primes_Func x func init =
     let rec pf x func init curPrime =
         if curPrime <= 0 then init
             
@@ -20,13 +18,13 @@ let primesFunc x func init =
     pf x func init x
 
 let eulerFunc x =
-    primesFunc x (fun x y -> x + 1) 0
+    primes_Func x (fun x y -> x + 1) 0
 
 
 [<EntryPoint>]
 let main argv =
-    printfn "Number: "
+    printfn "Число: "
     let x = Console.ReadLine() |> Int32.Parse
-    printfn "The product of mutually prime numbers: %d" (primesFunc x (fun x y -> x * y) 1)
-    printfn "Euler number: %d" (eulerFunc x)
+    printfn "Результат произведения простых чисел: %d" (primes_Func x (fun x y -> x * y) 1)
+    printfn "Число Эйлера: %d" (eulerFunc x)
     0
