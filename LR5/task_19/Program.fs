@@ -73,7 +73,6 @@ let main argv =
     printfn "Число: "
     let x = Console.ReadLine() |> Int32.Parse
 
-    //Найти максимальный простой делитель числа.
     let t181 = summ_del x
     printfn "максимальный простой делитель числа: %d" t181
 
