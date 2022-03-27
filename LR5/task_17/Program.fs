@@ -38,14 +38,14 @@ let prime_with_Pred x predicate func init =
 
 [<EntryPoint>]
 let main argv =
-    printfn "Number: "
+    printfn "Числа: "
     let x = Console.ReadLine() |> Int32.Parse
 
     //Сумма делителей числа, которые меньше 30
     let t171 = div_F_pred x (fun x -> x < 30) (fun x y -> x + y) 0
-    printfn "Result1: %d" t171
+    printfn "результат_1: %d" t171
 
     //Сумма взаимно простых компонентов числа x, которые больше 30
     let t172 = prime_with_Pred x (fun x -> x > 30) (fun x y -> x + y) 0
-    printfn "Result2: %d" t172
+    printfn "результат_2: %d" t172
     0
