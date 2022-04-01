@@ -23,7 +23,7 @@ let main argv =
 
     printfn "Количество элементов и список:"
 
-    let list = Program.read_L (Console.ReadLine() |> Convert.ToInt32)
+    let list = Program.readL (Console.ReadLine() |> Convert.ToInt32)
    
     printfn "Результат: %d" (proc list)
 

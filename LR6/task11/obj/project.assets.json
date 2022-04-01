@@ -51,19 +51,6 @@
             "locale": "zh-Hant"
           }
         }
-      },
-      "task11/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "dependencies": {
-          "FSharp.Core": "5.0.0"
-        },
-        "compile": {
-          "bin/placeholder/task11.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/task11.dll": {}
-        }
       }
     }
   },
@@ -94,17 +81,11 @@
         "lib/netstandard2.0/zh-Hans/FSharp.Core.resources.dll",
         "lib/netstandard2.0/zh-Hant/FSharp.Core.resources.dll"
       ]
-    },
-    "task11/1.0.0": {
-      "type": "project",
-      "path": "../task11/task11.fsproj",
-      "msbuildProject": "../task11/task11.fsproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "FSharp.Core >= 5.0.0",
-      "task11 >= 1.0.0"
+      "FSharp.Core >= 5.0.0"
     ]
   },
   "packageFolders": {
@@ -113,11 +94,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\github\\LR6\\task12\\task_11.fsproj",
-      "projectName": "task_11",
-      "projectPath": "D:\\github\\LR6\\task12\\task_11.fsproj",
+      "projectUniqueName": "D:\\github\\LR6\\task11\\task11.fsproj",
+      "projectName": "task11",
+      "projectPath": "D:\\github\\LR6\\task11\\task11.fsproj",
       "packagesPath": "C:\\Users\\scdco\\.nuget\\packages\\",
-      "outputPath": "D:\\github\\LR6\\task12\\obj\\",
+      "outputPath": "D:\\github\\LR6\\task11\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\scdco\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -133,11 +114,7 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {
-            "D:\\github\\LR6\\task11\\task11.fsproj": {
-              "projectPath": "D:\\github\\LR6\\task11\\task11.fsproj"
-            }
-          }
+          "projectReferences": {}
         }
       }
     },
