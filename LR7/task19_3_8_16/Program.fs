@@ -22,7 +22,7 @@ let main argv =
                 word_3 = n_word
                 count = acc.count - 1
                 rnd = n_rnd}
-        )
+        ) 
     let initial_8 = {count_8 = 0; word_8=word_in}
     let count_word_chet_8 = 
         (word_in,initial_8) ||> Array.foldBack (fun a acc ->
