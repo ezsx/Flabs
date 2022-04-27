@@ -39,9 +39,17 @@ let Difference (frequedCharList: (string * ((char * float) list))) (alphabet:(ch
 let ts1 str =    
     wrstrl (List.map (fun x-> fst x )(List.sortBy (fun x -> (Difference x (freqList (String.filter( fun x -> x <> ' ') (String.concat ("":string) (str))))) ) (List.map2(fun x y -> (x,y)) str (List.map (fun x -> freqList(x)) str) )))
 //перевод аски 
+let inline charToInt c = int c - int '0'
+let asciiaverge string = 
+    let res = List.average (List.map (fun x-> Convert.ToDouble (charToInt x)) (Seq.toList string))
+    res
+let ts2 (str:'string list) =
+    Console.WriteLine str.Head
+    wrstrl (List.sortBy (fun x-> pown ((asciiaverge x) - (asciiaverge str.Head)) 2) str.Tail)
 [<EntryPoint>]
 let main argv =
     let n = Console.ReadLine() |> Int32.Parse
     let str = rStr n []
     ts1 str
+    ts2 str
     0 
