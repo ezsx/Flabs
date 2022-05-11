@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "UHr95s/uUdjBLj+O83FDz2ZMSBg7/XEz04taAbjEstl9eLUmQF6AEbShbJXLeELOXenSv5YqOM97PeGNrAUJDg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\scdco\\RiderProjects\\LR8\\task_7\\task_7.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\scdco\\.nuget\\packages\\fsharp.core\\6.0.2\\fsharp.core.6.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
