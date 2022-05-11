@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Qhz1Rx3suDAeaCgOm4p8xbWx5mAfDRorMXfWFK/7OZRkj956Kir1rsc/aCRAgwKsm6q8vher57MjFwfTDtHPjw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\scdco\\RiderProjects\\LR8\\task_6\\task_6.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\scdco\\.nuget\\packages\\fparsec\\1.1.1\\fparsec.1.1.1.nupkg.sha512",
+    "C:\\Users\\scdco\\.nuget\\packages\\fsharp.core\\6.0.2\\fsharp.core.6.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
