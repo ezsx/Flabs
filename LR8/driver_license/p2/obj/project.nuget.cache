@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "lM72zM7kcxSxih5RDsKEi7MmNaZ1Dm/FJHTRplU2g8ytMhA9mxFNG9NpZNseCZFtw0qbDqSF2ue0en85bnPgSA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\scdco\\RiderProjects\\LR8\\driver_license\\p2\\p2.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\scdco\\.nuget\\packages\\fsharp.core\\6.0.2\\fsharp.core.6.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
